@@ -27,10 +27,10 @@
 		<dc:description id="description">Adventure hero Buck Rogers finishes the battle against the forces of the evil Han Empire in 2419 America.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-            &lt;p&gt;&lt;i&gt;The Airlords of Han&lt;/i&gt;,the sequel to &lt;i&gt;Armageddon 2419 A.D.&lt;/i&gt;, continues the adventures of Buck Rogers, the famous sci-fi adventure hero of early comics and radio shows. Originally published in &lt;i&gt;Amazing Stories&lt;/i&gt; in 1929, this novella was later combined with Nowlan’s original piece and re-published under the &lt;i&gt;Armageddon 2419 A.D.&lt;/i&gt; title in the 1960s.&lt;/p&gt;
-            &lt;p&gt;In it we follow Buck Rogers and his wife, Wilma Deering, lead Americans in a conclusive battle with the evil Han Empire.&lt;/p&gt;
-            &lt;p&gt;The story reflects the “Yellow Peril” mindset at the time of its writing, and successfully predicted many future technologies, including bazookas, night-vision devices, and paratroopers.&lt;/p&gt;
-        </meta>
+			&lt;p&gt;&lt;i&gt;The Airlords of Han&lt;/i&gt;,the sequel to &lt;i&gt;Armageddon 2419 A.D.&lt;/i&gt;, continues the adventures of Buck Rogers, the famous sci-fi adventure hero of early comics and radio shows. Originally published in &lt;i&gt;Amazing Stories&lt;/i&gt; in 1929, this novella was later combined with Nowlan’s original piece and re-published under the &lt;i&gt;Armageddon 2419 A.D.&lt;/i&gt; title in the 1960s.&lt;/p&gt;
+			&lt;p&gt;In it we follow Buck Rogers and his wife, Wilma Deering, lead Americans in a conclusive battle with the evil Han Empire.&lt;/p&gt;
+			&lt;p&gt;The story reflects the “Yellow Peril” mindset at the time of its writing, and successfully predicted many future technologies, including bazookas, night-vision devices, and paratroopers.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25438</dc:source>
@@ -45,11 +45,11 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n90627162</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">Frank Rudolph Paul</dc:contributor>
-		<meta property="file-as" refines="#artist">Paul, Frank R.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Frank_R._Paul</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2010152388</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="ill">Frank Rudolph Paul</dc:contributor>
+		<meta property="file-as" refines="#ill">Paul, Frank R.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#ill">https://en.wikipedia.org/wiki/Frank_R._Paul</meta>
+		<meta property="se:url.authority.nacoaf" refines="#ill">http://id.loc.gov/authorities/names/no2010152388</meta>
+		<meta property="role" refines="#ill" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
@@ -123,5 +123,4 @@
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
-
 </package>
